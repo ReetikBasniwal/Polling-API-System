@@ -1,0 +1,40 @@
+{
+  "name": "ovs1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "rashid",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "helmet": "^4.6.0",
+    "http-status": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "razorpay": "^2.0.6",
+    "twilio": "^3.63.0",
+    "validator": "^13.6.0",
+    "web3": "^1.3.6",
+    "winston": "^3.3.3",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
